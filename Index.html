@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo Bonificaciones Grandes Edificios</title>
+    <link rel="stylesheet" href="Calculo FOE GE.css"> <!-- Enlaza tu archivo CSS -->
+</head>
+<body>
+    <header>
+        <h1>Calculo Bonificaciones Grandes Edificios</h1>
+    </header>
+
+    <table id="tabla1">
+        <tr>
+            <td>Cantidad FP inicio</td>
+            <td class="bg-lightgreen">
+                <input type="number" id="tabla1-casilla1-2" step="any">
+            </td>
+        </tr>
+        <tr>
+            <td>Porcentaje bonificacion</td>
+            <td class="bg-lightyellow">
+                <input type="number" id="tabla1-casilla2-2" step="any">
+                <button id="tabla1-boton1-9">1.9</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Cantidad de la bonificacion</td>
+            <td class="bg-lightcoral">
+                <span id="tabla1-casilla3-2"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>Total FP con bonificacion</td>
+            <td class="bg-lightcoral">
+                <span id="tabla1-casilla4-2"></span>
+            </td>
+        </tr>
+    </table>
+
+    <header>
+        <h1>Calculo para cubrir Grandes Edificios</h1>
+    </header>
+
+    <table id="tabla2">
+        <tr>
+            <td>Total FP GE</td>
+            <td class="bg-lightgreen">
+                <input type="number" id="tabla2-casilla1-2" step="any">
+            </td>
+        </tr>
+        <tr>
+            <td>FP GE ahora</td>
+            <td class="bg-lightgreen">
+                <input type="number" id="tabla2-casilla2-2" step="any">
+            </td>
+        </tr>
+        <tr>
+            <td>Porcentaje bonificacion</td>
+            <td class="bg-lightyellow">
+                <input type="number" id="tabla2-casilla3-2" step="any">
+                <button id="tabla2-boton1-9">1.9</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Bono a cubrir</td>
+            <td class="bg-lightgreen">
+                <input type="number" id="tabla2-casilla4-2" step="any">
+            </td>
+        </tr>
+        <tr>
+            <td>FP puestos por mi</td>
+            <td class="bg-lightgreen">
+                <input type="number" id="tabla2-casilla5-2" step="any">
+            </td>
+        </tr>
+        <tr>
+            <td>Accion a realizar</td>
+            <td class="bg-lightblue">
+                <span id="tabla2-casilla6-2"></span>
+            </td>
+        </tr>
+    </table>
+    
+    <script src="calculo-ge-foe.js"></script> <!-- Enlaza tu archivo JavaScript -->
+</body>
+</html>
